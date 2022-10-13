@@ -5,6 +5,91 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
+  - name: "%�\x11�<'���\x10ӈ\f%�"
+    server: guangzhouddns.xyz
+    port: 11805
+    type: ssr
+    cipher: chacha20-ietf
+    password: Fhbe0z
+    protocol: auth_aes128_sha1
+    obfs: tls1.2_ticket_auth
+    protocol-param: 26786:r3uWHp
+    obfs-param: 018ab12023.microsoft.com
+  - name: 🇭🇰 _CN_中国->🇭🇰_HK_香港_1
+    server: cnrefhk01.standurl.xyz
+    port: 560
+    type: ssr
+    cipher: chacha20-ietf
+    password: mblank1port
+    protocol: auth_aes128_md5
+    obfs: plain
+    protocol-param: 28005:hjkpm123
+    obfs-param: ""
+  - name: 🇸🇬 +SG+20
+    server: do-sg-01.vvsoga.net
+    port: 1234
+    type: trojan
+    password: 469eb2d7-c86c-3484-ba85-4f26f0645b9b
+    sni: do-sg-01.vvsoga.net
+    skip-cert-verify: true
+  - name: ️PapaLaozi 61
+    server: 103.177.33.146
+    port: 443
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: fc568c325d09
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: fn600mlines008.fnline.vip
+      path: /
+      tls: true
+      mux: true
+  - name: 🇭🇰 香港 油尖旺御金·国峯 環球全域電訊 C05
+    server: hgc05.nachoneko.shop
+    port: 18428
+    type: ss
+    cipher: rc4-md5
+    password: weqPfW
+  - name: 🇺🇲 Relay_🇺🇸US-🏁ZZ_14
+    server: shopify.com
+    port: 2086
+    type: vmess
+    uuid: dc8b64db-eb6d-4bdf-98b2-31615319bea8
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /aries
+      headers:
+        Host: vn.cloudflare.quest
+  - name: 🇺🇲 美国 041
+    server: 172.64.153.200
+    port: 443
+    type: vmess
+    uuid: a8030afd-812a-4afe-a766-9c76ff3eddd4
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: /dongtaiwang.com
+      headers:
+        Host: lg4.zhujicn2.com
+  - name: 🇭🇰 香港 AWS1000M
+    server: text1.xbywwcp.us
+    port: 80
+    type: vmess
+    uuid: c13208bf-d4f7-3e84-8f17-3d6c0830be2e
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /by.xbygood.xyz
+      headers:
+        Host: "%7B%22host%22:%22a.189.cn%22%7D"
   - name: 🇺🇲 美国 075
     server: mahsaproxychannel.way-of-freedom.com
     port: 80
@@ -83,19 +168,6 @@ proxies:
       path: /dongtaiwang.com
       headers:
         Host: lg5.zhujicn2.com
-  - name: 🇺🇲 美国 073
-    server: 172.64.155.100
-    port: 443
-    type: vmess
-    uuid: 6e9217de-ad7e-4a67-bd17-a6dca951733b
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /dongtaiwang.com
-      headers:
-        Host: lg3.zhujicn2.com
   - name: 🇺🇲 [VMess] 🇺🇲 -美国-198.41.212.30
     server: 198.41.212.30
     port: 443
@@ -135,19 +207,6 @@ proxies:
       path: /obnevws
       headers:
         Host: 5472.1808.cf
-  - name: 🇭🇰 香港 AWS1000M
-    server: text1.xbywwcp.us
-    port: 80
-    type: vmess
-    uuid: c13208bf-d4f7-3e84-8f17-3d6c0830be2e
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /by.xbygood.xyz
-      headers:
-        Host: "%7B%22host%22:%22a.189.cn%22%7D"
   - name: 🇯🇵 日本 AWS1000M
     server: text2.xbywwcp.us
     port: 80
@@ -239,17 +298,23 @@ proxy-groups:
     lazy: true
     tolerance: 100
     proxies:
+      - "%�\x11�<'���\x10ӈ\f%�"
+      - 🇭🇰 _CN_中国->🇭🇰_HK_香港_1
+      - 🇸🇬 +SG+20
+      - ️PapaLaozi 61
+      - 🇭🇰 香港 油尖旺御金·国峯 環球全域電訊 C05
+      - 🇺🇲 Relay_🇺🇸US-🏁ZZ_14
+      - 🇺🇲 美国 041
+      - 🇭🇰 香港 AWS1000M
       - 🇺🇲 美国 075
       - 🇺🇲 US【付费推荐：wxfz.gq】 4
       - 🇫🇷 _FR_法国_9@13
       - 🇺🇲 v2cross.com - 美国CloudFlare节点 12
       - 🇺🇲 美国 072
       - 🇺🇲 US【付费推荐：wxfz.gq】 7
-      - 🇺🇲 美国 073
       - 🇺🇲 [VMess] 🇺🇲 -美国-198.41.212.30
       - 🇺🇲 US【付费推荐：wxfz.gq】 10
       - ""
-      - 🇭🇰 香港 AWS1000M
       - 🇯🇵 日本 AWS1000M
       - 🇭🇰 Asia 香港04 | 移动优化 | 解锁奈飞
       - 🇸🇬 新加坡 AWS1000M
@@ -260,17 +325,23 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 600
     proxies:
+      - "%�\x11�<'���\x10ӈ\f%�"
+      - 🇭🇰 _CN_中国->🇭🇰_HK_香港_1
+      - 🇸🇬 +SG+20
+      - ️PapaLaozi 61
+      - 🇭🇰 香港 油尖旺御金·国峯 環球全域電訊 C05
+      - 🇺🇲 Relay_🇺🇸US-🏁ZZ_14
+      - 🇺🇲 美国 041
+      - 🇭🇰 香港 AWS1000M
       - 🇺🇲 美国 075
       - 🇺🇲 US【付费推荐：wxfz.gq】 4
       - 🇫🇷 _FR_法国_9@13
       - 🇺🇲 v2cross.com - 美国CloudFlare节点 12
       - 🇺🇲 美国 072
       - 🇺🇲 US【付费推荐：wxfz.gq】 7
-      - 🇺🇲 美国 073
       - 🇺🇲 [VMess] 🇺🇲 -美国-198.41.212.30
       - 🇺🇲 US【付费推荐：wxfz.gq】 10
       - ""
-      - 🇭🇰 香港 AWS1000M
       - 🇯🇵 日本 AWS1000M
       - 🇭🇰 Asia 香港04 | 移动优化 | 解锁奈飞
       - 🇸🇬 新加坡 AWS1000M
@@ -279,17 +350,23 @@ proxy-groups:
   - name: SELECT
     type: select
     proxies:
+      - "%�\x11�<'���\x10ӈ\f%�"
+      - 🇭🇰 _CN_中国->🇭🇰_HK_香港_1
+      - 🇸🇬 +SG+20
+      - ️PapaLaozi 61
+      - 🇭🇰 香港 油尖旺御金·国峯 環球全域電訊 C05
+      - 🇺🇲 Relay_🇺🇸US-🏁ZZ_14
+      - 🇺🇲 美国 041
+      - 🇭🇰 香港 AWS1000M
       - 🇺🇲 美国 075
       - 🇺🇲 US【付费推荐：wxfz.gq】 4
       - 🇫🇷 _FR_法国_9@13
       - 🇺🇲 v2cross.com - 美国CloudFlare节点 12
       - 🇺🇲 美国 072
       - 🇺🇲 US【付费推荐：wxfz.gq】 7
-      - 🇺🇲 美国 073
       - 🇺🇲 [VMess] 🇺🇲 -美国-198.41.212.30
       - 🇺🇲 US【付费推荐：wxfz.gq】 10
       - ""
-      - 🇭🇰 香港 AWS1000M
       - 🇯🇵 日本 AWS1000M
       - 🇭🇰 Asia 香港04 | 移动优化 | 解锁奈飞
       - 🇸🇬 新加坡 AWS1000M

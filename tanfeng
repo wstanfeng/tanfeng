@@ -5,6 +5,154 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
+  - name: 🇺🇲 github.com/freefq - 美国纽约州纽约BuyVM 4
+    server: text7.xbywwcp.us
+    port: 80
+    type: vmess
+    uuid: 99e2f539-700f-3947-b31a-4c9d912ff5fa
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /by.xbygood.xyz
+      headers:
+        Host: text7.xbywwcp.us
+  - name: 🇭🇰 github.com/freefq - 香港Amazon数据中心 2
+    server: text1.xbywwcp.us
+    port: 80
+    type: vmess
+    uuid: c13208bf-d4f7-3e84-8f17-3d6c0830be2e
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /by.xbygood.xyz
+      headers:
+        Host: "%7B%22host%22:%22a.189.cn%22%7D"
+  - name: IR【付费推荐：wxfz.ml】
+    server: MahsaProxyTelegramChannel.way-of-freedom.com
+    port: 80
+    type: vmess
+    uuid: b831381d-6324-4d53-ad4f-8cda48b30811
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /graphql
+      headers:
+        Host: MahsaProxyTelegramChannel.way-of-freedom.com
+  - name: 伊朗(TG频道:@kxswa)
+    server: MahsaProxyTelegramChannel.way-of-freedom.com
+    port: 80
+    type: vmess
+    uuid: b831381d-6324-4d53-ad4f-8cda48b30811
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /graphql
+      headers:
+        Host: MahsaProxyTelegramChannel.way-of-freedom.com
+  - name: 伊朗(TG频道:@kxswa) 2
+    server: MahsaProxyTelegramChannel.way-of-freedom.com
+    port: 80
+    type: vmess
+    uuid: b831381d-6324-4d53-ad4f-8cda48b30811
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /graphql
+      headers:
+        Host: MahsaProxyTelegramChannel.way-of-freedom.com
+  - name: 🇺🇲 github.com/freefq - 美国  7
+    server: mahsaproxychannel.way-of-freedom.com
+    port: 80
+    type: vmess
+    uuid: b831381d-6324-4d53-ad4f-8cda48b30811
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /graphql
+      headers:
+        Host: mahsaproxychannel.way-of-freedom.com
+  - name: IR【付费推荐：wxfz.ml】 2
+    server: mahsaproxychannel.way-of-freedom.com
+    port: 80
+    type: vmess
+    uuid: b831381d-6324-4d53-ad4f-8cda48b30811
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /graphql
+      headers:
+        Host: mahsaproxychannel.way-of-freedom.com
+  - name: 🇫🇷 法国(TG频道:@kxswa)
+    server: content-provider5.cdn-delivery.akamaicd.com
+    port: 443
+    type: trojan
+    password: Sp3eDVp
+    sni: content-provider5.cdn-delivery.akamaicd.com
+    skip-cert-verify: true
+  - name: 🇫🇷 法国(TG频道:@kxswa) 2
+    server: content-provider26.cdn-delivery.akamaicd.com
+    port: 443
+    type: trojan
+    password: origin
+    sni: content-provider26.cdn-delivery.akamaicd.com
+    skip-cert-verify: true
+  - name: 🇳🇱 荷兰(TG频道:@kxswa)
+    server: content-provider23.cdn-delivery.akamaicd.com
+    port: 443
+    type: trojan
+    password: Sp3eDVp
+    sni: content-provider23.cdn-delivery.akamaicd.com
+    skip-cert-verify: true
+  - name: 🇬🇧 英国(TG频道:@kxswa)
+    server: content-provider13.cdn-delivery.akamaicd.com
+    port: 443
+    type: trojan
+    password: Sp3eDVp
+    sni: content-provider13.cdn-delivery.akamaicd.com
+    skip-cert-verify: true
+  - name: 🇫🇷 法国(TG频道:@kxswa) 3
+    server: content-provider12.cdn-delivery.akamaicd.com
+    port: 443
+    type: trojan
+    password: origin
+    sni: content-provider12.cdn-delivery.akamaicd.com
+    skip-cert-verify: true
+  - name: 🇷🇺 俄罗斯联邦(TG频道:@kxswa)
+    server: 91.243.82.187
+    port: 20003
+    type: vmess
+    uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF
+    alterId: 0
+    cipher: auto
+    tls: true
+  - name: 🇸🇬 新加坡1|tg频道:@ripaojiedian
+    server: 54.151.172.209
+    port: 443
+    type: vmess
+    uuid: 20a1e3d1-9fb0-4f09-8bc9-b75ec31a1858
+    alterId: 0
+    cipher: auto
+    tls: false
+  - name: 🇫🇷 法国(TG频道:@kxswa) 4
+    server: 141.94.76.177
+    port: 443
+    type: trojan
+    password: 6e3b4240-38f9-4321-9b3c-bc669a34b848
+    skip-cert-verify: true
   - name: "%�\x11�<'���\x10ӈ\f%�"
     server: guangzhouddns.xyz
     port: 11805
@@ -246,19 +394,6 @@ proxies:
       path: /by.xbygood.xyz
       headers:
         Host: "%7B%22host%22:%22a.189.cn%22%7D"
-  - name: 🇺🇲 -美国-mahsaproxychannel.way-of-freedom.com
-    server: mahsaproxychannel.way-of-freedom.com
-    port: 80
-    type: vmess
-    uuid: b831381d-6324-4d53-ad4f-8cda48b30811
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /graphql
-      headers:
-        Host: mahsaproxychannel.way-of-freedom.com
   - name: 🇺🇲 -美国-text7.xbywwcp.us
     server: text7.xbywwcp.us
     port: 80
@@ -298,6 +433,21 @@ proxy-groups:
     lazy: true
     tolerance: 100
     proxies:
+      - 🇺🇲 github.com/freefq - 美国纽约州纽约BuyVM 4
+      - 🇭🇰 github.com/freefq - 香港Amazon数据中心 2
+      - IR【付费推荐：wxfz.ml】
+      - 伊朗(TG频道:@kxswa)
+      - 伊朗(TG频道:@kxswa) 2
+      - 🇺🇲 github.com/freefq - 美国  7
+      - IR【付费推荐：wxfz.ml】 2
+      - 🇫🇷 法国(TG频道:@kxswa)
+      - 🇫🇷 法国(TG频道:@kxswa) 2
+      - 🇳🇱 荷兰(TG频道:@kxswa)
+      - 🇬🇧 英国(TG频道:@kxswa)
+      - 🇫🇷 法国(TG频道:@kxswa) 3
+      - 🇷🇺 俄罗斯联邦(TG频道:@kxswa)
+      - 🇸🇬 新加坡1|tg频道:@ripaojiedian
+      - 🇫🇷 法国(TG频道:@kxswa) 4
       - "%�\x11�<'���\x10ӈ\f%�"
       - 🇭🇰 _CN_中国->🇭🇰_HK_香港_1
       - 🇸🇬 +SG+20
@@ -318,13 +468,27 @@ proxy-groups:
       - 🇯🇵 日本 AWS1000M
       - 🇭🇰 Asia 香港04 | 移动优化 | 解锁奈飞
       - 🇸🇬 新加坡 AWS1000M
-      - 🇺🇲 -美国-mahsaproxychannel.way-of-freedom.com
       - 🇺🇲 -美国-text7.xbywwcp.us
   - name: LOAD-BALANCE
     type: load-balance
     url: http://www.gstatic.com/generate_204
     interval: 600
     proxies:
+      - 🇺🇲 github.com/freefq - 美国纽约州纽约BuyVM 4
+      - 🇭🇰 github.com/freefq - 香港Amazon数据中心 2
+      - IR【付费推荐：wxfz.ml】
+      - 伊朗(TG频道:@kxswa)
+      - 伊朗(TG频道:@kxswa) 2
+      - 🇺🇲 github.com/freefq - 美国  7
+      - IR【付费推荐：wxfz.ml】 2
+      - 🇫🇷 法国(TG频道:@kxswa)
+      - 🇫🇷 法国(TG频道:@kxswa) 2
+      - 🇳🇱 荷兰(TG频道:@kxswa)
+      - 🇬🇧 英国(TG频道:@kxswa)
+      - 🇫🇷 法国(TG频道:@kxswa) 3
+      - 🇷🇺 俄罗斯联邦(TG频道:@kxswa)
+      - 🇸🇬 新加坡1|tg频道:@ripaojiedian
+      - 🇫🇷 法国(TG频道:@kxswa) 4
       - "%�\x11�<'���\x10ӈ\f%�"
       - 🇭🇰 _CN_中国->🇭🇰_HK_香港_1
       - 🇸🇬 +SG+20
@@ -345,11 +509,25 @@ proxy-groups:
       - 🇯🇵 日本 AWS1000M
       - 🇭🇰 Asia 香港04 | 移动优化 | 解锁奈飞
       - 🇸🇬 新加坡 AWS1000M
-      - 🇺🇲 -美国-mahsaproxychannel.way-of-freedom.com
       - 🇺🇲 -美国-text7.xbywwcp.us
   - name: SELECT
     type: select
     proxies:
+      - 🇺🇲 github.com/freefq - 美国纽约州纽约BuyVM 4
+      - 🇭🇰 github.com/freefq - 香港Amazon数据中心 2
+      - IR【付费推荐：wxfz.ml】
+      - 伊朗(TG频道:@kxswa)
+      - 伊朗(TG频道:@kxswa) 2
+      - 🇺🇲 github.com/freefq - 美国  7
+      - IR【付费推荐：wxfz.ml】 2
+      - 🇫🇷 法国(TG频道:@kxswa)
+      - 🇫🇷 法国(TG频道:@kxswa) 2
+      - 🇳🇱 荷兰(TG频道:@kxswa)
+      - 🇬🇧 英国(TG频道:@kxswa)
+      - 🇫🇷 法国(TG频道:@kxswa) 3
+      - 🇷🇺 俄罗斯联邦(TG频道:@kxswa)
+      - 🇸🇬 新加坡1|tg频道:@ripaojiedian
+      - 🇫🇷 法国(TG频道:@kxswa) 4
       - "%�\x11�<'���\x10ӈ\f%�"
       - 🇭🇰 _CN_中国->🇭🇰_HK_香港_1
       - 🇸🇬 +SG+20
@@ -370,7 +548,6 @@ proxy-groups:
       - 🇯🇵 日本 AWS1000M
       - 🇭🇰 Asia 香港04 | 移动优化 | 解锁奈飞
       - 🇸🇬 新加坡 AWS1000M
-      - 🇺🇲 -美国-mahsaproxychannel.way-of-freedom.com
       - 🇺🇲 -美国-text7.xbywwcp.us
 rules:
   - RULE-SET,applications,DIRECT
